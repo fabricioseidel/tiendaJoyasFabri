@@ -1,0 +1,42 @@
+
+# Dependencias de Node.js
+node_modules/
+
+# Archivo de variables de entorno
+.env
+.env.development
+.env.test
+
+# Logs
+*.log
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de bloqueo de versiones alternativos
+yarn.lock
+package-lock.json
+
+# Carpetas de builds
+dist/
+build/
+
+# Resultados de pruebas
+coverage/
+
+# Caché de npm/yarn
+.npm/
+.yarn/
+
+# Archivos de Docker
+docker-compose.override.yml
